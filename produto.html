@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Itens - THE VAMPIRE DIARIES</title>
+</head>
+
+<body bgcolor="black">
+
+    <center>
+        <h1>
+            <font color="red">Inventário de Mystic Falls</font>
+        </h1>
+
+        <p>
+            <font color="white">Consulte os itens mágicos disponíveis ou cadastre um novo artefato.</font>
+        </p>
+
+        <hr color="red" width="80%">
+
+        <!-- Tabela de Itens Existentes -->
+        <h3>
+            <font color="red">Itens em Estoque</font>
+        </h3>
+        
+        <table border="1" bordercolor="red" bgcolor="black" cellpadding="10">
+            <tr>
+                <th><font color="white">Item</font></th>
+                <th><font color="white">Descrição</font></th>
+                <th><font color="white">Poder</font></th>
+            </tr>
+            <tr>
+                <td><font color="white">Anel de Lapis Lazuli</font></td>
+                <td><font color="white">Usado pelos irmãos Salvatore</font></td>
+                <td><font color="white">Proteção contra o Sol</font></td>
+            </tr>
+            <tr>
+                <td><font color="white">Adaga de Carvalho Branco</font></td>
+                <td><font color="white">Arma antiga</font></td>
+                <td><font color="white">Matar Originais</font></td>
+            </tr>
+            <tr>
+                <td><font color="white">Verbena</font></td>
+                <td><font color="white">Planta rara</font></td>
+                <td><font color="white">Proteção contra hipnose</font></td>
+            </tr>
+        </table>
+
+        <br><br>
+        <hr color="red" width="80%">
+
+        <!-- Galeria de Imagens dos Itens -->
+        <h3>
+            <font color="red">Galeria de Artefatos</font>
+        </h3>
+
+        <table border="0" cellpadding="15">
+            <tr>
+                <td align="center">
+                    <!-- Substitua o 'src' pelo nome da sua imagem -->
+                    <img src="anel.jpg" width="150" height="150" border="3" style="border-color: red; color: red;">
+                    <br>
+                    <font color="white">Anel Salvatore</font>
+                </td>
+                <td align="center">
+                    <img src="adaga.jpeg" width="150" height="150" border="3" style="border-color: red; color: red;">
+                    <br>
+                    <font color="white">Adaga de Carvalho</font>
+                </td>
+                <td align="center">
+                    <img src="colar.jpeg" width="150" height="150" border="3" style="border-color: red; color: red;">
+                    <br>
+                    <font color="white">Colar da Elena</font>
+                </td>
+            </tr>
+        </table>
+
+        <br><br>
+        <hr color="red" width="80%">
+
+        <!-- Formulário de Cadastro -->
+        <h3>
+            <font color="red">Cadastrar Novo Item</font>
+        </h3>
+
+        <form action="#">
+            <table border="0">
+                <tr>
+                    <td><font color="white">Nome do Item:</font></td>
+                    <td><input type="text" name="nome"></td>
+                </tr>
+                <tr>
+                    <td><font color="white">Origem:</font></td>
+                    <td><input type="text" name="origem"></td>
+                </tr>
+                <tr>
+                    <td><font color="white">Raridade:</font></td>
+                    <td>
+                        <select name="raridade">
+                            <option>Comum</option>
+                            <option>Raro</option>
+                            <option>Ancestral</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <br>
+                        <input type="submit" value="Cadastrar Item">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <br><br>
+
+        <a href="principal.html">
+            <font color="red">Voltar ao Início</font>
+        </a>
+
+    </center>
+
+</body>
+
+</html>
