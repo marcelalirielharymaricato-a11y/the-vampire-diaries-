@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TVD - Cadastro</title>
+</head>
+<!-- Fundo da página em Preto -->
+<body bgcolor="#1A1A1A" link="#CC0000" vlink="#CC0000">
+
+    <!-- Tabela para centralização vertical e horizontal -->
+    <table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" style="height: 100vh;">
+        <tr>
+            <td align="center" valign="middle">
+                
+                <!-- Card de Cadastro -->
+                <table border="0" width="450" bgcolor="#FFFFFF" cellpadding="35" cellspacing="0" style="border-top: 6px solid #CC0000; border-radius: 10px;">
+                    <tr>
+                        <td>
+                            <center>
+                                <h1><font face="Arial" color="#1A1A1A">Criar Conta</font></h1>
+                            </center>
+
+                            <!-- Início do Formulário -->
+                            <form action="login.html" method="POST">
+                                
+                                <font face="Arial" size="2"><b>Nome Completo:</b></font><br>
+                                <input type="text" name="nome" style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #DDD; border-radius: 4px;" required>
+                                <br><br>
+
+                                <font face="Arial" size="2"><b>Endereço:</b></font><br>
+                                <input type="text" name="endereco" style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #DDD; border-radius: 4px;" required>
+                                <br><br>
+
+                                <font face="Arial" size="2"><b>E-mail:</b></font><br>
+                                <input type="email" name="email" style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #DDD; border-radius: 4px;" required>
+                                <br><br>
+
+                                <font face="Arial" size="2"><b>Nome de Usuário (Login):</b></font><br>
+                                <input type="text" name="login" style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #DDD; border-radius: 4px;" required>
+                                <br><br>
+
+                                <font face="Arial" size="2"><b>Senha:</b></font><br>
+                                <input type="password" name="senha" style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #DDD; border-radius: 4px;" required>
+                                <br><br>
+
+                                <font face="Arial" size="2"><b>Confirmar Senha:</b></font><br>
+                                <input type="password" name="confirma_senha" style="width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #DDD; border-radius: 4px;" required>
+                                <br><br>
+
+                                <!-- Botão Principal: Vermelho -->
+                                <button type="submit" style="width: 100%; padding: 12px; background-color: #CC0000; color: white; border: none; font-weight: bold; cursor: pointer; border-radius: 4px; font-size: 14px;">
+                                    CADASTRAR AGORA
+                                </button>
+                                
+                                <br><br>
+
+                                <!-- Botão Secundário: Preto -->
+                                <button type="reset" style="width: 100%; padding: 10px; background-color: #1A1A1A; color: white; border: none; font-weight: bold; cursor: pointer; border-radius: 4px; font-size: 12px;">
+                                    LIMPAR TUDO
+                                </button>
+
+                            </form>
+
+                            <center>
+                                <br><hr color="#F2F2F2"><br>
+                                <font face="Arial" size="2">
+                                    Já possui uma conta? 
+                                    <a href="login.html" style="text-decoration: none;"><b>Fazer Login</b></a>
+                                </font>
+                            </center>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
